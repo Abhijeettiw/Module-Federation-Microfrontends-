@@ -7,6 +7,7 @@ function ChildApp() {
   return (
     <BrowserRouter>
       <Routes>
+        <Route path="/" element={<ChildHome />} />
         <Route path="/child" element={<ChildHome />} />
         <Route path="/child/dashboard" element={<ChildDashboard />} />
       </Routes>
